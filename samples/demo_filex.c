@@ -11,7 +11,7 @@
 /* Buffer for FileX FX_MEDIA sector cache. This must be large enough for at least one
    sector, which are typically 512 bytes in size.  */
 
-unsigned char media_memory[512];
+unsigned char media_memory_[512];
 
 #ifdef FX_ENABLE_FAULT_TOLERANT
 UCHAR         fault_tolerant_memory[FX_FAULT_TOLERANT_MAXIMUM_LOG_FILE_SIZE];
@@ -34,9 +34,9 @@ FX_MEDIA        ram_disk;
 FX_FILE         my_file;
 
 #ifndef FX_STANDALONE_ENABLE
-CHAR            *ram_disk_memory;
+CHAR            *ram_disk_memory_;
 #else
-unsigned char   ram_disk_memory[256*512];
+unsigned char ram_disk_memory_[256 * 512];
 #endif
 
 /* Define ThreadX global data structures.  */
@@ -85,7 +85,7 @@ CHAR *pointer;
     pointer = pointer + DEMO_STACK_SIZE;
 
     /* Save the memory pointer for the RAM disk.  */
-    ram_disk_memory =  pointer;
+    ram_disk_memory_ =  pointer;
 
     /* Initialize FileX.  */
     fx_system_initialize();
@@ -106,9 +106,9 @@ CHAR  local_buffer[30];
 #ifdef FX_ENABLE_EXFAT
     fx_media_exFAT_format(&ram_disk,
                           _fx_ram_driver,         // Driver entry
-                          ram_disk_memory,        // RAM disk memory pointer
-                          media_memory,           // Media buffer pointer
-                          sizeof(media_memory),   // Media buffer size
+                          ram_disk_memory_,        // RAM disk memory pointer
+                          media_memory_,           // Media buffer pointer
+                          sizeof(media_memory_),   // Media buffer size
                           "MY_RAM_DISK",          // Volume Name
                           1,                      // Number of FATs
                           0,                      // Hidden sectors
@@ -120,9 +120,9 @@ CHAR  local_buffer[30];
 #else
     fx_media_format(&ram_disk,
                     _fx_ram_driver,               // Driver entry
-                    ram_disk_memory,              // RAM disk memory pointer
-                    media_memory,                 // Media buffer pointer
-                    sizeof(media_memory),         // Media buffer size
+                    ram_disk_memory_,              // RAM disk memory pointer
+                    media_memory_,                 // Media buffer pointer
+                    sizeof(media_memory_),         // Media buffer size
                     "MY_RAM_DISK",                // Volume Name
                     1,                            // Number of FATs
                     32,                           // Directory Entries
@@ -140,7 +140,7 @@ CHAR  local_buffer[30];
     {
 
         /* Open the RAM disk.  */
-        status =  fx_media_open(&ram_disk, "RAM DISK", _fx_ram_driver, ram_disk_memory, media_memory, sizeof(media_memory));
+        status =  fx_media_open(&ram_disk, "RAM DISK", _fx_ram_driver, ram_disk_memory_, media_memory_, sizeof(media_memory_));
 
         /* Check the media open status.  */
         if (status != FX_SUCCESS)

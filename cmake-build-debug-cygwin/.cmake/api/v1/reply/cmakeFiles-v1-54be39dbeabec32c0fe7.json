@@ -1,0 +1,157 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug-cygwin/CMakeFiles/3.21.1/CMakeSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/cygdrive/c/Users/s-skorokhodov/AppData/Local/JetBrains/CLion2021.3/cygwin_cmake/share/cmake-3.21.1/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug-cygwin/CMakeFiles/3.21.1/CMakeCCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug-cygwin/CMakeFiles/3.21.1/CMakeASMCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/cygdrive/c/Users/s-skorokhodov/AppData/Local/JetBrains/CLion2021.3/cygwin_cmake/share/cmake-3.21.1/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/cygdrive/c/Users/s-skorokhodov/AppData/Local/JetBrains/CLion2021.3/cygwin_cmake/share/cmake-3.21.1/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/cygdrive/c/Users/s-skorokhodov/AppData/Local/JetBrains/CLion2021.3/cygwin_cmake/share/cmake-3.21.1/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/cygdrive/c/Users/s-skorokhodov/AppData/Local/JetBrains/CLion2021.3/cygwin_cmake/share/cmake-3.21.1/Modules/Platform/CYGWIN.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/cygdrive/c/Users/s-skorokhodov/AppData/Local/JetBrains/CLion2021.3/cygwin_cmake/share/cmake-3.21.1/Modules/Platform/UnixPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/cygdrive/c/Users/s-skorokhodov/AppData/Local/JetBrains/CLion2021.3/cygwin_cmake/share/cmake-3.21.1/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/cygdrive/c/Users/s-skorokhodov/AppData/Local/JetBrains/CLion2021.3/cygwin_cmake/share/cmake-3.21.1/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/cygdrive/c/Users/s-skorokhodov/AppData/Local/JetBrains/CLion2021.3/cygwin_cmake/share/cmake-3.21.1/Modules/Compiler/GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/cygdrive/c/Users/s-skorokhodov/AppData/Local/JetBrains/CLion2021.3/cygwin_cmake/share/cmake-3.21.1/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/cygdrive/c/Users/s-skorokhodov/AppData/Local/JetBrains/CLion2021.3/cygwin_cmake/share/cmake-3.21.1/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/cygdrive/c/Users/s-skorokhodov/AppData/Local/JetBrains/CLion2021.3/cygwin_cmake/share/cmake-3.21.1/Modules/Platform/CYGWIN-GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/cygdrive/c/Users/s-skorokhodov/AppData/Local/JetBrains/CLion2021.3/cygwin_cmake/share/cmake-3.21.1/Modules/Platform/CYGWIN-GNU.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug-cygwin/CMakeFiles/3.21.1/CMakeRCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/cygdrive/c/Users/s-skorokhodov/AppData/Local/JetBrains/CLion2021.3/cygwin_cmake/share/cmake-3.21.1/Modules/CMakeRCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/cygdrive/c/Users/s-skorokhodov/AppData/Local/JetBrains/CLion2021.3/cygwin_cmake/share/cmake-3.21.1/Modules/Platform/CYGWIN-windres.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/cygdrive/c/Users/s-skorokhodov/AppData/Local/JetBrains/CLion2021.3/cygwin_cmake/share/cmake-3.21.1/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/cygdrive/c/Users/s-skorokhodov/AppData/Local/JetBrains/CLion2021.3/cygwin_cmake/share/cmake-3.21.1/Modules/CMakeASMInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/cygdrive/c/Users/s-skorokhodov/AppData/Local/JetBrains/CLion2021.3/cygwin_cmake/share/cmake-3.21.1/Modules/Compiler/GNU-ASM.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/cygdrive/c/Users/s-skorokhodov/AppData/Local/JetBrains/CLion2021.3/cygwin_cmake/share/cmake-3.21.1/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"path" : "common/inc/fx_user_sample.h"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/cygdrive/c/Users/s-skorokhodov/AppData/Local/JetBrains/CLion2021.3/cygwin_cmake/share/cmake-3.21.1/Modules/CPack.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/cygdrive/c/Users/s-skorokhodov/AppData/Local/JetBrains/CLion2021.3/cygwin_cmake/share/cmake-3.21.1/Modules/CPackComponent.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/cygdrive/c/Users/s-skorokhodov/AppData/Local/JetBrains/CLion2021.3/cygwin_cmake/share/cmake-3.21.1/Templates/CPackConfig.cmake.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/cygdrive/c/Users/s-skorokhodov/AppData/Local/JetBrains/CLion2021.3/cygwin_cmake/share/cmake-3.21.1/Templates/CPackConfig.cmake.in"
+		},
+		{
+			"path" : "ports/linux/gnu/CMakeLists.txt"
+		},
+		{
+			"path" : "common/CMakeLists.txt"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "/cygdrive/d/usr/src/filex-exp/cmake-build-debug-cygwin",
+		"source" : "/cygdrive/d/usr/src/filex-exp"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

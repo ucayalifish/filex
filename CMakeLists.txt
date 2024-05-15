@@ -6,7 +6,7 @@ project(filex
 )
 
 
-option(FX_STANDALONE_ENABLE "Enable Filex in standalone mode" OFF)
+option(FX_STANDALONE_ENABLE "Enable Filex in standalone mode" ON)
 
 if(NOT DEFINED THREADX_ARCH)
     message(FATAL_ERROR "Error: THREADX_ARCH not defined")
@@ -75,3 +75,11 @@ set(CPACK_SOURCE_IGNORE_FILES
 set(CPACK_VERBATIM_VARIABLES YES)
 include(CPack)
 
+
+add_executable(demo_filex ${CMAKE_CURRENT_LIST_DIR}/samples/demo_filex.c)
+
+target_link_libraries(demo_filex ${PROJECT_NAME})
+
+add_executable(web_fs_emulator web_fs_emulator/web_emulator.c web_fs_emulator/fx_user.h)
+
+target_link_libraries(web_fs_emulator ${PROJECT_NAME})

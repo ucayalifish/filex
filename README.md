@@ -1,6 +1,6 @@
 # Azure RTOS FileX
 
-This is a high-performance, file allocation table (FAT)-compatible file system that’s fully integrated with Azure RTOS ThreadX and available for all supported processors. Like Azure RTOS ThreadX, Azure RTOS FileX is designed to have a small footprint and high performance, making it ideal for today’s deeply embedded applications that require file management operations. FileX supports most physical media, including RAM, Azure RTOS USBX, SD CARD, and NAND/NOR flash memories via Azure RTOS LevelX.
+This is a high-performance, file allocation table (FAT)-compatible file system that’s fully integrated with Azure RTOS ThreadX and available for all supported processors. Like Azure RTOS ThreadX, Azure RTOS FileX is designed to have a small footprint and high performance, making it ideal for today’s deeply embedded applications that require file management operations. FileX supports most physical media_, including RAM, Azure RTOS USBX, SD CARD, and NAND/NOR flash memories via Azure RTOS LevelX.
 
 ## Documentation
 

@@ -1,0 +1,107 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				},
+				{
+					"build" : "ports/linux/gnu",
+					"jsonFile" : "directory-ports.linux.gnu-Debug-9b4635daf926211da24b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "ports/linux/gnu"
+				},
+				{
+					"build" : "common",
+					"jsonFile" : "directory-common-Debug-6a5c22a1ee7f2aca6d8e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "common"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "filex",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "demo_filex::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-demo_filex-Debug-e6c23fb4c33d054f5d34.json",
+					"name" : "demo_filex",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "filex::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-filex-Debug-784fa03295f6512bff35.json",
+					"name" : "filex",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "web_fs_emulator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-web_fs_emulator-Debug-4d754cdd36addf68ca97.json",
+					"name" : "web_fs_emulator",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/cygdrive/d/usr/src/filex-exp/cmake-build-debug-cygwin",
+		"source" : "/cygdrive/d/usr/src/filex-exp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}
